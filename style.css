@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-top: 15px;
+}
+#navleft{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Manrope';
+}
+#navleft button{
+    padding: 6px 12px;
+    background-color: #f7ebe3b9;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid #f7ebe3b9;
+}
+#navleft button:hover{
+    background-color: #f7ebe3;
+}
+
+#navleft img{
+    height: 25px;
+}
+#navright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#navright a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Manrope';
+    gap: 15px;
+}
+#navright button{
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 1px solid #777;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Manrope';
+}
+#navright button:hover{
+    background-color: black;
+    color: white;
+}
+#mainheading{
+    padding: 0 100px;
+    margin-top: 120px;
+}
+#mainheading h1{
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: -5px;
+    text-transform: capitalize;
+    line-height: 1;
+    font-family: 'Manrope';
+}
+#mainheading p{
+    font-weight: 200;
+    font-size: 24px;
+    width: 40%;
+    margin-top: 30px;
+    font-family: 'Manrope';
+}
+#mainheading button{
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    margin-top: 29px;
+    font-family: 'Manrope';
+}
+#logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 140px;
+    align-items: start;
+    height: 35px;
+}
+#page4{
+    width: 100%;
+    height: 60%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 90px;
+}
+#page4 .categories{
+    height: 85%;
+    width: 20%;
+    background-color: #f3f3f3;
+    padding: 50px;
+}
+.categories h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.categories p{
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.categories a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+#selected #heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0 90px;
+    font-family: 'Manrope';
+    margin-bottom: 50px;
+}
+#heading h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+#heading button{
+    padding: 12px 18px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+#heading button:hover{
+    color: white;
+    background-color: black;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    font-family: 'Manrope';
+}
+.box{
+    width: 47%;
+    overflow: hidden;
+}
+.imagebox{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.box #img1{
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b981e34f347cacdc73b6_project-01-thumb.webp);
+}
+.box #img2{
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b96d86c0c985079d8d60_project-02-thumb.webp);
+}
+.box #img3{
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b953a2c1a5706f63bbe1_project-03-thumb.webp);
+}
+.box #img4{
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b943f334e17d7007a0ea_project-04-thumb.webp);
+}
+.box .imagebox:hover{
+    width: 103%;
+}
+.titlebox{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.titlebox h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.titlebox button{
+    padding: 8px 13px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: #252525;
+}
+.but:hover{
+    color: white;
+    background-color: black;
+}
